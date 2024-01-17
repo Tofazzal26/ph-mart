@@ -321,6 +321,9 @@ footer p {
         font-size: 2rem;
         
     }
+    .product-head {
+        margin-top: 10rem;
+    }
 
     /* main content responsive */
 
@@ -392,12 +395,15 @@ footer p {
         
     }
 
+    .product-head {
+        margin-top: 10rem;
+    }
+
     /* main content responsive */
 
     .product-head h1 {
         font-size: 3rem;
         margin-top: 7rem;
-        
     }
     .feature-product {
         grid-template-columns: repeat(1, 1fr);
