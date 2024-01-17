@@ -189,6 +189,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    justify-content: center;
 }
 
 .our-support h1{
@@ -253,6 +254,74 @@ footer p {
 }
 
 
+
+
+
+
+@media screen and (max-width: 576px) {
+    .left-side .logo h1 {
+        font-size: 2rem;
+    }
+    .right-side ul li a {
+        font-size: 1.5rem;
+    }
+    .left-side-content h1 {
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .right-side-content {
+        width: 100%;
+    }
+    .right-side-content img, .left-side-content{
+        width: 100%;
+    }
+    .main-content {
+        flex-direction: column;
+        height: 66vh;
+    }
+    .left-side-content {
+        margin-top: 5rem;
+        order: 2;
+    }
+    .right-side-content {
+        order: 1;
+    }
+    .left-side-content p {
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+
+    /* main content responsive */
+
+    .product-head h1 {
+        font-size: 3rem;
+        /* margin-top: 18rem; */
+    }
+    .feature-product {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* why we best section responsibe */
+
+
+    .our-sevice {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .our-support h1 {
+        margin-top: 5rem;
+    }
+    .our-support h1 {
+        font-size: 2.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
 
 
 
