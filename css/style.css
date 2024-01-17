@@ -178,6 +178,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -254,8 +255,37 @@ footer p {
 }
 
 
-    /* tablet device responsive  */
+ /* latop device responsive  */
 
+ @media screen and (max-width: 1200px) {
+    .left-side .logo h1 {
+        font-size: 3rem;
+    }
+    .right-side ul li a {
+        font-size: 2rem;
+    }
+
+    .our-sevice {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .left-side-content h1 {
+        font-size: 4rem;
+    }
+    .left-side-content p {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+    /* tablet device responsive  */
 
 @media screen and (max-width: 900px) {
     .left-side .logo h1 {
