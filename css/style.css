@@ -52,7 +52,7 @@ nav {
 
 .right-side ul li{
     list-style: none;
-    margin-right: 4rem;
+    padding-left: 4rem;
 }
 
 .right-side ul li a{
@@ -64,15 +64,126 @@ nav {
 
 
 
+    /* main section style here */
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    margin-top: 5rem;
+}
+
+
+.left-side-content {
+    width: 50%;
+}
+
+.left-side-content h1{
+    font-size: 5rem;
+    color: #606d5f;
+    width: 40rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+}
+
+.left-side-content p{
+    width: 45rem;
+    font-size: 1.8rem;
+    color: #888888;
+    margin-bottom: 3rem;
+}
+
+.left-side-content button {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #888888;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    line-height: 3.6rem;
+}
+
+
+.right-side-content {
+    width: 50%;
+}
+
+
+.right-side-content img{
+    width: 100%;
+}
 
 
 
 
 
 
+/* product section style here */
+
+
+.product-head h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: #606d5f;
+}
 
 
 
+.product {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efefefef;
+    border-radius: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.product h2 {
+    font-size: 2.2rem;
+    color: #606d5f;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: 2px solid #efefefef;
+    padding: 1rem 2rem;
+    color: #888888;
+    cursor: pointer;
+    border-radius: 1rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.product img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+
+.feature-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2rem;
+}
+
+.product-head {
+    
+}
 
 
 
